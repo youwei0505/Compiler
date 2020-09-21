@@ -1,0 +1,25 @@
+eol             [\n]*
+space           [ \t]*
+commentL	    \(\*
+commentR	    \*\)
+comment         {commentL}"("*([^*)]|([^*]")")|("*"[^)]?))*"*"*{commentR}
+alpha           [A-Za-z]
+digit           [0-9]
+no_string1		\'[^\'\n\ \r]*
+no_string2		[^\'\n\ \r]*\'
+string			\'([^\n]*)+\'
+id              ({alpha}|\_)+({alpha}|{digit}|\_)*
+symint			[+-]?({digit}*)+([+-]({digit})*)+
+symreal_2    	{small}([+-]{small})+
+Integeradd		{Integer}[+-]{digit}+
+no_Integer	    [+-]*[0]+{digit}+
+Integer         [+-]*{digit}+
+Inv_id          (\^|\#|{digit})+{id}
+no_small1       [+-]*[0][0]+{Integer}*\.{digit}+
+small_2         [^+-][^\n]{digit}+\.{digit}+
+small           {Integer}\.{digit}+
+real            [+-]?({small}|{small}[e|E][+-]{digit}+|{Integer}[e|E][+-]{digit}+)
+no_small2       [+-]*\.{digit}+
+no_small3       [+-]*{digit}+\.
+Inv_real        [+-]?({small}|{small}[e|E][+-]{digit}+|{Integer}[e|E][+-]{digit}+)
+symbol2			(,|;|:|\(|\)|:=|\>|\<|=|==|<=|>=|\[|\]|\*|\/|\.|\+|\-)

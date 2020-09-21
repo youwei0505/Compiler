@@ -1,0 +1,133 @@
+Line: 1, 1st char: 1, "(* (* *)" is a "comment".
+Line: 1, 1st char: 10, "*)" is a invaild "commentR".
+Line: 2, 1st char: 1, "001" is a invalid "Integer(no_Integer)".
+[40;31;5mError :You shouldnt set '0' in front of the integer with digits , it doesnt make sence.[0m
+ Line: 3, 1st char: 1, "(* + (* + *)" is a "comment".
+Line: 3, 1st char: 14, "+" is a "Symbol(s+i)".
+Line: 3, 1st char: 16, "*)" is a invaild "commentR".
+Line: 3, 1st char: 19, "-" is a "Symbol(s+i)".
+Line: 3, 1st char: 21, "*)" is a invaild "commentR".
+Line: 3, 1st char: 24, "-" is a "Symbol(s+i)".
+Line: 3, 1st char: 26, "*)" is a invaild "commentR".
+Line: 3, 1st char: 29, "(* +++ *)" is a "comment".
+Line: 4, 1st char: 1, "' qfqfqf (* *) '" is a "string(string)".
+Line: 5, 1st char: 1, "(* '''' qfqfqf '' *)" is a "comment".
+Line: 6, 1st char: 1, "123.456E+6" is a "Real(real)".
+[40;31;5mLine: 6, 1st char: 11, ".7" is a invalid "Real(no_small2)".[0m
+You shoudl put integer beforehand the dot(.) .Line: 7, 1st char: 1, "1" is a "Integer(s+i)".
+Line: 7, 1st char: 2, "2" is a "Symbol(s+i)".
+Line: 7, 1st char: 3, "+" is a "Integer(s+i)".
+Line: 7, 1st char: 4, "3" is a "Symbol(s+i)".
+Line: 7, 1st char: 5, "4" is a "Integer(s+i)".
+Line: 8, 1st char: 1, "12" is a "Integer(Integer)".
+Line: 9, 1st char: 1, "+34" is a "Integer(Integer)".
+Line: 10,1st char: 1," 1a " is a invild "ID".
+[40;31;5mError : Your ID is wrong ,look for ID-(1) : the ID need in a ~ z A ~ Z.[0m
+Line: 11,1st char: 1," ^db " is a invild "ID".
+[40;31;5mError : Your ID is wrong ,look for ID-(2) : the head isn't be # or ^ .[0m
+Line: 12,1st char: 1," #db " is a invild "ID".
+[40;31;5mError : Your ID is wrong ,look for ID-(2) : the head isn't be # or ^ .[0m
+Line: 13, 1st char: 1, "abcdefghijklmnopqrstuvwxyz12345" is a "ID(id)".
+Line: 14, 1st char: 1, "peter" is a "ID(id)".
+Line: 15, 1st char: 1, "_db" is a "ID(id)".
+Line: 16, 1st char: 1, "a1" is a "ID(id)".
+Line: 17, 1st char: 1, "1" is a "Integer(s+i)".
+Line: 17, 1st char: 2, "+" is a "Symbol(s+i)".
+Line: 17, 1st char: 3, "2" is a "Integer(s+i)".
+Line: 18, 1st char: 1, "1e+2" is a "Real(real)".
+Line: 19,1st char: 1," 2E2 " is a invild "ID".
+[40;31;5mError : Your ID is wrong ,look for ID-(1) : the ID need in a ~ z A ~ Z.[0m
+Line: 20, 1st char: 1, "1.1" is a "real(small)".
+Line: 21, 1st char: 1, "1" is a "Integer(Integer)".
+Line: 21, 1st char: 3, "+1" is a "Integer(Integer)".
+Line: 22, 1st char: 1, "1.0+1.0" is a "symreal_2".
+1.0+1.0
+Line: 23, 1st char: 1, "1.0e+1" is a "Real(real)".
+Line: 23, 1st char: 7, "+1.0e+1" is a "Real(real)".
+Line: 25, 1st char: 1, "3.14" is a "real(small)".
+Line: 26, 1st char: 1, "7E-2" is a "Real(real)".
+Line: 27, 1st char: 1, "12.25e+6" is a "Real(real)".
+Line: 28, 1st char: 1, "-7.5E+3" is a "Real(real)".
+Line:29,1st char:1, "1.00" is a invalid "real(small)".
+[40;31;5mError : real wrong : (2-2) . [0m
+Line: 30,1st char: 1, "03.0" is a invalid "real(small)".
+[40;31;5mError : real wrong : (1) .[0m
+Line:31,1st char:1, "12.100" is a invalid "real(small)".
+[40;31;5mError : real wrong : (2-2) . [0m
+[40;31;5mLine: 32, 1st char: 1, ".1" is a invalid "Real(no_small2)".[0m
+You shoudl put integer beforehand the dot(.) .[40;31;5mLine: 33, 1st char: 1, "1." is a invalid "Real(no_small3)".[0m
+You shoudl put integer afterhand the dot(.) .Line: 34, 1st char: 1, "''" is a "string(string)".
+Line: 35, 1st char: 1, "'''" is a "string(string)".
+Line: 36, 1st char: 1, "asdf" is a "ID(id)".
+Line: 37, 1st char: 1, "' '" is a "string(string)".
+Line: 38, 1st char: 1, "'You''ll see'" is a "string(string)".
+Line: 39, 1st char: 1, "'ab" is a invalid "string(nostring1)".
+[40;31;5mError :You couldnt forget to set ''' afterhand the string what you tpye in .[0m
+ Line: 40, 1st char: 1, "ab'" is a invalid "string(nostring2)".
+[40;31;5mError :You couldnt forget to set ''' beforehand the string what you tpye in .[0m
+ Line: 41, 1st char: 1, "*" is a "Symbol".
+Line: 41, 1st char: 2, "*" is a "Symbol".
+Line: 41, 1st char: 3, "*" is a "Symbol".
+Line: 41, 1st char: 4, "*" is a "Symbol".
+Line: 41, 1st char: 5, "*" is a "Symbol".
+Line: 41, 1st char: 6, "*" is a "Symbol".
+Line: 41, 1st char: 7, "*" is a "Symbol".
+Line: 41, 1st char: 8, "*)" is a invaild "commentR".
+Line: 42, 1st char: 1, "(* comment *)" is a "comment".
+Line: 42, 1st char: 14, "(*asdf*)" is a "comment".
+Line: 43, 1st char: 1, "(* comment
+second line *)" is a "comment".
+Line: 44, 1st char: 1, "(*****)" is a "comment".
+Line: 45, 1st char: 1, "(* a**b) *)" is a "comment".
+Line: 46, 1st char: 1, "(*ab*)" is a "comment".
+Line: 46, 1st char: 7, "*" is a "Symbol".
+Line: 46, 1st char: 8, "*)" is a invaild "commentR".
+Line: 47, 1st char: 1, "123" is a "Integer(Integer)".
+Line: 48, 1st char: 1, "asdfsadf" is a "ID(id)".
+Line: 49, 1st char: 1, "'''''" is a "string(string)".
+Line: 50, 1st char: 1, "'absadlkaskdfhasjhdfkhskdfhskdfkjsdfjksdjfkjsdkfsdf'" is a "string(string)".
+Line: 51, 1st char: 1, "(*asdf(*asdf*)" is a "comment".
+Line: 53, 1st char: 1, "(*" is a invaild "commentL".
+Line: 53, 1st char: 3, "*" is a "Symbol".
+Line: 53, 1st char: 4, "*" is a "Symbol".
+Line: 53, 1st char: 5, "*" is a "Symbol".
+Line: 53, 1st char: 6, "*" is a "Symbol".
+Line: 53, 1st char: 7, "*" is a "Symbol".
+Line: 53, 1st char: 8, "*" is a "Symbol".
+Line: 53, 1st char: 9, "asdf" is a "ID(id)".
+Line: 54, 1st char: 1,"absolute" is a "Reserved_word".
+Line: 54, 1st char: 10,"and" is a "Reserved_word".
+Line: 54, 1st char: 14,"begin" is a "Reserved_word".
+Line: 54, 1st char: 20,"break" is a "Reserved_word".
+Line: 54, 1st char: 26,"case" is a "Reserved_word".
+Line: 54, 1st char: 31,"const" is a "Reserved_word".
+Line: 54, 1st char: 37,"continue" is a "Reserved_word".
+Line: 54, 1st char: 46,"do" is a "Reserved_word".
+Line: 54, 1st char: 49,"else" is a "Reserved_word".
+Line: 54, 1st char: 54,"end" is a "Reserved_word".
+Line: 55, 1st char: 1,"for" is a "Reserved_word".
+Line: 55, 1st char: 5,"function" is a "Reserved_word".
+Line: 55, 1st char: 14,"if" is a "Reserved_word".
+Line: 55, 1st char: 17,"mod" is a "Reserved_word".
+Line: 55, 1st char: 21,"nil" is a "Reserved_word".
+Line: 55, 1st char: 25,"not" is a "Reserved_word".
+Line: 55, 1st char: 29,"object" is a "Reserved_word".
+Line: 55, 1st char: 36,"of" is a "Reserved_word".
+Line: 55, 1st char: 39,"or" is a "Reserved_word".
+Line: 55, 1st char: 42,"program" is a "Reserved_word".
+Line: 55, 1st char: 50,"then" is a "Reserved_word".
+Line: 55, 1st char: 55,"to" is a "Reserved_word".
+Line: 55, 1st char: 58,"var" is a "Reserved_word".
+Line: 55, 1st char: 62,"while" is a "Reserved_word".
+Line: 56, 1st char: 1,"array" is a "Reserved_word".
+Line: 56, 1st char: 7,"integer" is a "Reserved_word".
+Line: 56, 1st char: 15,"double" is a "Reserved_word".
+Line: 56, 1st char: 22,"write" is a "Reserved_word".
+Line: 56, 1st char: 28,"writeln" is a "Reserved_word".
+Line: 56, 1st char: 36,"string" is a "Reserved_word".
+Line: 56, 1st char: 43,"float" is a "Reserved_word".
+Line: 56, 1st char: 49,"read" is a "Reserved_word".
+
+
+The number of characters: 1
+The number of lines: 59

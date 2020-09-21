@@ -1,0 +1,108 @@
+Line: 1, 1st char: 1, "(* (* *)" is a "comment".
+Line: 1, 1st char: 10, "*)" is an [0;31minvalid[0m "comment".
+Line: 2, 1st char: 1, "001" is an [0;31minvalid[0m "integer".
+Line: 3, 1st char: 1, "(* + (* + *)" is a "comment".
+Line: 3, 1st char: 14, "+" is a "symbol".
+Line: 3, 1st char: 16, "*)" is an [0;31minvalid[0m "comment".
+Line: 3, 1st char: 19, "-" is a "symbol".
+Line: 3, 1st char: 21, "*)" is an [0;31minvalid[0m "comment".
+Line: 3, 1st char: 24, "-" is a "symbol".
+Line: 3, 1st char: 26, "*)" is an [0;31minvalid[0m "comment".
+Line: 3, 1st char: 29, "(* +++ *)" is a "comment".
+Line: 4, 1st char: 1, "' qfqfqf (* *) '" is a "string".
+Line: 5, 1st char: 1, "(* '''' qfqfqf '' *)" is a "comment".
+Line: 6, 1st char: 1, "123.456E+6" is a "real".
+Line: 6, 1st char: 11, ".7" is an [0;31minvalid[0m "real".
+Line: 7, 1st char: 1, "12" is a "integer".
+Line: 7, 1st char: 3, "+" is a "symbol".
+Line: 7, 1st char: 4, "34" is a "integer".
+Line: 8, 1st char: 1, "12" is a "integer".
+Line: 9, 1st char: 1, "+34" is a "integer".
+Line: 10, 1st char: 1, "1a" is an [0;31minvalid[0m "ID".
+Line: 11, 1st char: 1, "^db" is an [0;31minvalid[0m "ID".
+Line: 12, 1st char: 1, "#db" is an [0;31minvalid[0m "ID".
+Line: 13, 1st char: 1, "abcdefghijklmnopqrstuvwxyz12345" is an [0;31minvalid[0m "ID".
+Line: 14, 1st char: 1, "peter" is a "ID".
+Line: 15, 1st char: 1, "_db" is a "ID".
+Line: 16, 1st char: 1, "a1" is a "ID".
+Line: 17, 1st char: 1, "1" is a "integer".
+Line: 17, 1st char: 2, "+" is a "symbol".
+Line: 17, 1st char: 3, "2" is a "integer".
+Line: 18, 1st char: 1, "1e+2" is a "real".
+Line: 19, 1st char: 1, "2E2" is an [0;31minvalid[0m "ID".
+Line: 20, 1st char: 1, "1.1" is a "real".
+Line: 21, 1st char: 1, "1" is a "integer".
+Line: 21, 1st char: 3, "+" is a "symbol".
+Line: 21, 1st char: 4, "1" is a "integer".
+Line: 22, 1st char: 1, "1.0" is a "real".
+Line: 22, 1st char: 4, "+" is a "symbol".
+Line: 22, 1st char: 5, "1.0" is a "real".
+Line: 23, 1st char: 1, "1.0e+1" is a "real".
+Line: 23, 1st char: 7, "+" is a "symbol".
+Line: 23, 1st char: 8, "1.0e+1" is a "real".
+Line: 24, 1st char: 1, "1.0" is a "real".
+Line: 25, 1st char: 1, "3.14" is a "real".
+Line: 26, 1st char: 1, "7E-2" is a "real".
+Line: 27, 1st char: 1, "12.25e+6" is a "real".
+Line: 28, 1st char: 1, "-7.5E+3" is a "real".
+Line: 29, 1st char: 1, "1.00" is an [0;31minvalid[0m "real".
+Line: 30, 1st char: 1, "03.0" is an [0;31minvalid[0m "real".
+Line: 31, 1st char: 1, "12.100" is an [0;31minvalid[0m "real".
+Line: 32, 1st char: 1, ".1" is an [0;31minvalid[0m "real".
+Line: 33, 1st char: 1, "1." is an [0;31minvalid[0m "real".
+Line: 34, 1st char: 1, "''" is a "string".
+Line: 35, 1st char: 1, "''" is a "string".
+Line: 35, 1st char: 3, "'" is an [0;31minvalid[0m "string".
+Line: 36, 1st char: 1, "asdf" is a "ID".
+Line: 37, 1st char: 1, "' '" is a "string".
+Line: 38, 1st char: 1, "'You''ll see'" is a "string".
+Line: 39, 1st char: 1, "'ab" is an [0;31minvalid[0m "string".
+Line: 40, 1st char: 1, "ab'" is an [0;31minvalid[0m "string".
+Line: 41, 1st char: 1, "********)" is an [0;31minvalid[0m "comment".
+Line: 42, 1st char: 1, "(* comment *)" is a "comment".
+Line: 42, 1st char: 14, "(*asdf*)" is a "comment".
+Line: 43, 1st char: 1, "(* comment
+second line *)" is a "comment".
+Line: 45, 1st char: 1, "(*****)" is a "comment".
+Line: 46, 1st char: 1, "(* a**b) *)" is a "comment".
+Line: 47, 1st char: 1, "(*ab*)" is a "comment".
+Line: 47, 1st char: 7, "**)" is an [0;31minvalid[0m "comment".
+Line: 48, 1st char: 1, "123" is a "integer".
+Line: 49, 1st char: 1, "asdfsadf" is a "ID".
+Line: 50, 1st char: 1, "''''" is a "string".
+Line: 50, 1st char: 5, "'" is an [0;31minvalid[0m "string".
+Line: 51, 1st char: 1, "'absadlkaskdfhasjhdfkhskdfhskdfkjsdfjksdjfkjsdkfsdf'" is an [0;31minvalid[0m "string".
+Line: 52, 1st char: 1, "(*asdf(*asdf*)" is a "comment".
+Line: 54, 1st char: 1, "(*******asdf" is an [0;31minvalid[0m "comment".
+Line: 55, 1st char: 1, "absolute" is a "reserved word".
+Line: 55, 1st char: 10, "and" is a "reserved word".
+Line: 55, 1st char: 14, "begin" is a "reserved word".
+Line: 55, 1st char: 20, "break" is a "reserved word".
+Line: 55, 1st char: 26, "case" is a "reserved word".
+Line: 55, 1st char: 31, "const" is a "reserved word".
+Line: 55, 1st char: 37, "continue" is a "reserved word".
+Line: 55, 1st char: 46, "do" is a "reserved word".
+Line: 55, 1st char: 49, "else" is a "reserved word".
+Line: 55, 1st char: 54, "end" is a "reserved word".
+Line: 56, 1st char: 1, "for" is a "reserved word".
+Line: 56, 1st char: 5, "function" is a "reserved word".
+Line: 56, 1st char: 14, "if" is a "reserved word".
+Line: 56, 1st char: 17, "mod" is a "reserved word".
+Line: 56, 1st char: 21, "nil" is a "reserved word".
+Line: 56, 1st char: 25, "not" is a "reserved word".
+Line: 56, 1st char: 29, "object" is a "reserved word".
+Line: 56, 1st char: 36, "of" is a "reserved word".
+Line: 56, 1st char: 39, "or" is a "reserved word".
+Line: 56, 1st char: 42, "program" is a "reserved word".
+Line: 56, 1st char: 50, "then" is a "reserved word".
+Line: 56, 1st char: 55, "to" is a "reserved word".
+Line: 56, 1st char: 58, "var" is a "reserved word".
+Line: 56, 1st char: 62, "while" is a "reserved word".
+Line: 57, 1st char: 1, "array" is a "reserved word".
+Line: 57, 1st char: 7, "integer" is a "reserved word".
+Line: 57, 1st char: 15, "double" is a "reserved word".
+Line: 57, 1st char: 22, "write" is a "reserved word".
+Line: 57, 1st char: 28, "writeln" is a "reserved word".
+Line: 57, 1st char: 36, "string" is a "reserved word".
+Line: 57, 1st char: 43, "float" is a "reserved word".
+Line: 57, 1st char: 49, "read" is a "reserved word".
